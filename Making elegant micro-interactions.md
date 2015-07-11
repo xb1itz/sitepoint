@@ -21,12 +21,12 @@ A website should feel like a concert of interactive interface elements working t
 ###Key rule - No teleportation
 The idea is simple - always use transitions when you changing something on page. That means there shouldn't be any instant snap-cuts on your GUI. Every appearing, disappearing or transforming element should be implemented with easing or/and animation. This helps users to focus their vision on the areas you want them to. And of course this creates a feeling of elegance and consistent flow.   
 
-![No teleportation](https://www.dropbox.com/s/c3m4sw8f8byvjv1/no-teleport.png?dl=1)
+![No teleportation](https://www.dropbox.com/s/vl4p795upnlhxzt/no-teleport.gif?dl=1)
 
 ###Trigger placing
 You usually use the same switch to turn on and off lights in your room. The same concept applies to controls toggling something on your site. If some control triggers some state of an element - the same control should rollback that state. Furthermore, according to [Fitts' law](http://en.wikipedia.org/wiki/Fitts%27s_law) such controls requires close to zero effort to rapidly switch something on and off.  
 
-![Trigger placing](https://www.dropbox.com/s/4gmkbi46fgqew23/trigger.png?dl=1)
+![Trigger placing](https://www.dropbox.com/s/t938990pcm9xapf/trigger-placement.gif?dl=1)
 
 ###Transition origin and direction
 Transitions always have a trigger. It's the control element that users use to set of a transition. At a time of interaction user is always focused on trigger. So it is necessary that transition originate from or nearby it. If you start transition too far away from trigger, user could just miss it and the flow will break.  
