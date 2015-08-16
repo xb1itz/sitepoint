@@ -2,7 +2,7 @@
 Interaction design became a buzzword that relates to proper UX design process. If you won't make your website sexier with fancy animated interactions it is no go. You will loose your SWAG. 
 However fancy interactions are not synonymous elegant ones. If you are creative like me, you occasionally want to show off by creating fancy-flying interactions just to make your website cooler. Though doing that, it is especially easy to screw up your entire user experience and make your website annoying or even harder to use.
 
-![Elegant](https://www.dropbox.com/s/m66bjbu8nzs7nte/2752162749_843d508f47_b.png?dl=1)
+![Elegant](https://www.dropbox.com/s/y8y7o00i1h4cr9e/elegant_bw.jpg?dl=1)
 
 
 ##So what is a micro-interaction?
