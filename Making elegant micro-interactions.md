@@ -32,28 +32,28 @@ You usually use the same switch to turn on and off lights in your room. The same
 Transitions always have a trigger. It's the control element that users use to set of a transition. At a time of interaction user is always focused on trigger. So it is necessary that transition originate from or nearby it. If you start transition too far away from trigger, user could just miss it and the flow will break.  
 Furthermore a transition should propagate from trigger to the position where you want to focus users' attention. The trick is simple - you lead users eye from trigger to the spot where he should make his next move. This way users won't loss their focus and will be right on the track where you want them. 
 
-![Transition origin and direction](https://www.dropbox.com/s/d9ru6b0vvipm8vm/transition-origin.png?dl=1)
+![Transition origin and direction](https://www.dropbox.com/s/9ej97oq1rqiqx4c/origin.gif?dl=1)
 
 ###Natural transition timing
 Transition timing defines how long animation of transition is playing. The major problem of timing is that there is no silver bullet to get it right. If you make transition too long - it will create a pain if users repeat the same interaction often or rapidly. On the other hand, if it is too short, it won't make the effect or will feel unnatural. All you can do is to evaluate the transition by your eagle eye. The best advice is not to make all transitions with same timing all over your site. Just play around and find the right balance. Also note that even a difference of **0.05s** matters. 
 
-![Natural transition timing](https://www.dropbox.com/s/44sx5j89y59n4c6/transition-timing.png?dl=1)
+![Natural transition timing](https://www.dropbox.com/s/5i6d1b252mtve42/timing.gif?dl=1)
 
 
 ###Transition rollback (feeling of control)
 Sometimes it happens that users change their mind quickly, in the middle of transition. In case this happens transition responsiveness is critical. If user cancels the last interaction (e.g. clicks trigger button twice) the animation of transition should be **instantly** reversed. If it is not, user automatically looses the feeling of control. Furthermore you are making user think that he did something wrong.   
 
-![Transition rollback](https://www.dropbox.com/s/8vpl43yve8t2obo/transition-rollback.png?dl=1)
+![Transition rollback](https://www.dropbox.com/s/ub7ua62ohi4inzx/rollback.gif?dl=1)
 
 ###Focus on next action in series
 This particular tip is dedicated for interactions where users perform a sequence of actions. When designing such sequence, you should avoid any unnecessary interactions and always set focus on the next control in sequence. The most basic example of such interaction is an *[edit]* button that opens a form and magically focuses on the first field so that user does not need to click it manually.
 
-![Focus](https://www.dropbox.com/s/o6sbbazqa9qc3zy/focus.png?dl=1)
+![Focus](https://www.dropbox.com/s/4pl0a1u74urjw73/autofocus.gif?dl=1)
 
 ###Necessity of action Feedback 
 Users should always recognize a time when interaction is done. If some kind of interaction does not obviously change website appearance, you should always consider implementing visual feedback that tells users *"Hey you, it's done!"*. In situations you skip that, users tend to repeat the same action multiple times, thus making a mistake and even corrupting something precious. 
 
-![Feedback](https://www.dropbox.com/s/iayfkhuc2ib0o33/feedback.png?dl=1)
+![Feedback](https://www.dropbox.com/s/p0ljusubtuhk061/feedback.gif?dl=1)
 
 ##Applying these hacks
 In short, you can use these hacks as cheat-sheet for implementing micro-interactions on your website. It should help you design the details of interaction before you implement them. However, there is a good chance that you won't make them perfect at first time. In that case you will need to tweak them according to the situation - so be prepared to play around a little. 
